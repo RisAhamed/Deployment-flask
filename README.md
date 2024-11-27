@@ -1,8 +1,41 @@
-## ML-Model-Flask-Deployment
-This is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API
+## Step 1: Update Your System
 
-### Prerequisites
-You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
+First, update your system to ensure all packages are up to date:
+
+```bash
+sudo apt-get update
+python3 --version
+
+```
+```bash
+sudo apt-get update
+python3 --version
+
+```
+```bash
+sudo apt-get install python3 python3-pip python3-venv
+
+```
+```bash
+sudo apt-get install python3-venv
+python3 -m pip install --upgrade pip setuptools virtualenv
+
+```
+```bash
+python3 -m venv myenv
+```
+```bash
+source myenv/bin/activate
+
+```
+
+```bash
+pip install flask numpy pandas scikit-learn matplotlib
+```
+```bash
+python app.py
+```
+
 
 ### Project Structure
 This project has four major parts :
